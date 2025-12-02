@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zen • Guided Breathing • WorldEyeopener</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <span>WorldEyeopener</span>
+        <span>Zen • Breath • Nervous System Reset</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="chess.html">Chess</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="zen.html">Zen</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page">
+      <h1 class="page-title">Zen • Guided Breathing</h1>
+      <p class="page-subtitle">
+        A guided breathing experience from WorldEyeopener to slow your thoughts,
+        reset your nervous system, and bring you back into your body.
+      </p>
+
+      <div class="grid-2">
+        <!-- LEFT: DESCRIPTION & BUY -->
+        <div class="card">
+          <div class="card-tag">Digital Session</div>
+          <div class="card-title">Zen Breathing Video</div>
+          <p>
+            This guided breathing video is designed for people who are overstimulated,
+            overthinking, or stuck in constant hustle. In a few minutes, you’ll:
+          </p>
+          <ul style="margin-top:0.6rem; margin-left:1.2rem; font-size:0.85rem; color:#9ca3af; line-height:1.5;">
+            <li>Calm your mind and slow your inner noise</li>
+            <li>Relax your body and nervous system</li>
+            <li>Feel more grounded for chess, coding, or creative work</li>
+          </ul>
+          <p class="text-muted" style="margin-top:0.8rem;">
+            Once you purchase, you’ll get access to the full video in high quality
+            so you can use it daily – morning, night, or before big decisions.
+          </p>
+
+          <div class="card-actions" style="margin-top:1rem;">
+            <!-- Replace this link with your actual payment / product page -->
+            <a class="btn" href="#" target="_blank" rel="noopener">
+              Buy Zen Breathing Video
+            </a>
+          </div>
+
+          <p class="text-muted" style="margin-top:0.6rem;">
+            Tip: connect this button to your Gumroad / Stripe / PayPal product page
+            so people can pay and get instant access.
+          </p>
+        </div>
+
+        <!-- RIGHT: VIDEO PREVIEW / EMBED -->
+        <div>
+          <div class="card-tag">Preview</div>
+          <div class="card-title">Watch a Short Clip</div>
+          <p class="text-muted" style="margin-bottom:0.6rem;">
+            You can embed a short preview or even the full breathing session here.
+          </p>
+
+          <!-- If you're using YouTube, use an unlisted video and replace VIDEO_ID_ZEN -->
+          <div class="video-embed" style="margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/VIDEO_ID_ZEN"
+              title="Zen Breathing Preview"
+              frameborder="0"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <!-- OR, if you’re self-hosting the video file, use this instead:
+          <video controls style="width:100%; border-radius:1rem; border:1px solid rgba(148,163,184,0.6);">
+            <source src="video/zen-breathing.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          -->
+        </div>
+      </div>
+
+      <p class="text-muted" style="margin-top:1.25rem;">
+        For best results: use this breathing session with headphones, sit upright with
+        your feet on the floor, and give yourself a few minutes after to notice how
+        your body feels.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      © <span id="year"></span> WorldEyeopener. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
